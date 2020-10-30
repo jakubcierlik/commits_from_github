@@ -132,4 +132,4 @@ dmypy.json
 .vscode/
 
 # Credentials file for security
-# credentials.py
+credentials.py
