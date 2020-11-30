@@ -43,7 +43,7 @@ def get_commits() -> None:
         if total_count:
             commit_str = "commit" if total_count == 1 else "commits"
             print("\n", repo.name, "-", total_count, commit_str)
-            print(repo.url)
+            print(repo.html_url)
             for commit in commits:
                 print(commit.sha, end="")
                 if PRINT_COMMIT_DATES:
